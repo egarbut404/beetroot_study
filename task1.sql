@@ -1,7 +1,7 @@
 CREATE TABLE books (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL,
-    author TEXT NOT NULL
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL
 );
 
 ALTER TABLE books RENAME TO library;
